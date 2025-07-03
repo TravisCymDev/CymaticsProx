@@ -14,7 +14,7 @@ app.get("/status-url", async (req, res) => {
 
   console.log("✅ Received order ID:", orderId);
 
-  const shop = process.env.SHOPIFY_SHOP_DOMAIN;
+  const shop = process.env.SHOPIFY_STORE_DOMAIN;
   const version = process.env.API_VERSION;
   const token = process.env.SHOPIFY_ACCESS_TOKEN;
 
